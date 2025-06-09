@@ -1,0 +1,12 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="3.1">
+    <servlet>
+    <servlet-name>RegistrationServlet</servlet-name>
+    <servlet-class>com.example.RegistrationServlet</servlet-class> <!-- match your actual package/class -->
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>RegistrationServlet</servlet-name>
+    <url-pattern>/register</url-pattern>
+</servlet-mapping>
+
+</web-app>
